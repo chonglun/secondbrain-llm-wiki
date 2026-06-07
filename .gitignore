@@ -1,0 +1,10 @@
+# macOS
+.DS_Store
+
+# Obsidian — local workspace state (changes on every open/close)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+
+# Obsidian plugins (binary/auto-installed; version only if you want portability)
+# .obsidian/plugins/
