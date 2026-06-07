@@ -1,7 +1,40 @@
-# CLAUDE.md — 知識庫維護協議
+# CLAUDE.md
+
+This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+
+---
+
+# 知識庫維護協議
 
 > 這份檔案是整個系統的設定核心。任何 AI agent(Claude Code、Codex、或本機透過 Ollama / LM Studio 的模型)在這個 vault 工作時,都必須先讀這份協議,再開始任何操作。
 > 它的作用是把 AI 從「聊天對象」變成一個**有紀律的 wiki 維護者**。
+
+## 快速指令 Quick Reference
+
+```bash
+# 查看最近 5 筆操作紀錄
+grep "^## \[" log.md | tail -5
+
+# 列出所有書籍頁面(不含模板)
+ls wiki/books/ | grep -v '^_'
+
+# 列出所有概念頁面
+ls wiki/concepts/ | grep -v '^_'
+
+# 找出 status: stale 的頁面
+grep -rl "status: stale" wiki/
+
+# 找出尚未完成的 draft 頁面
+grep -rl "status: draft" wiki/
+
+# 找出包含待補佔位符的頁面
+grep -rl "___" wiki/
+```
+
+**模板位置:**
+- `wiki/books/_template.md` — 書籍頁模板
+- `wiki/concepts/_template.md` — 概念頁模板
+- `wiki/authors/_template.md` — 作者頁模板
 
 ---
 

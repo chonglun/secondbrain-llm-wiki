@@ -1,0 +1,14 @@
+# 模板檔（不算正式知識節點）
+wiki/books/_template.md
+wiki/concepts/_template.md
+wiki/authors/_template.md
+
+# 系統導航 / 協議檔
+CLAUDE.md
+README.md
+log.md
+index.md
+wiki/overview.md
+
+# 原始來源（raw/ 由 wiki/ 引用，不需直接出現在圖譜）
+raw/
