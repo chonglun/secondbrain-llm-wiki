@@ -11,3 +11,4 @@ title: 操作紀錄
 ## [2026-06-04] init | 建立知識庫骨架(books + 自我提升研究)
 ## [2026-06-07] ingest | 吸引力法則（Michael J. Losier）— 建立書籍頁、自證預言概念頁、作者頁；更新 index.md
 ## [2026-06-07] ingest | 影響力（Robert Cialdini）— 建立書籍頁（七大法則）、社會認同概念頁、作者頁；更新 index.md
+## [2026-06-07] ingest | 找到你的為什麼（Simon Sinek 等）— 建立書籍頁、黃金圈概念頁、作者頁；更新 index.md
